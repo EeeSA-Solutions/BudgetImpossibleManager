@@ -10,7 +10,7 @@ namespace BudgetImpossibleManager.Data.Models
     public class User
     {
         [Key]
-        public int Id { get; set; }
+        public int UserID { get; set; }
 
         [Required(AllowEmptyStrings = false), MaxLength(80)]
         public string FirstName { get; set; }

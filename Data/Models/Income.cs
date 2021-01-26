@@ -10,7 +10,7 @@ namespace BudgetImpossibleManager.Data.Models
     public class Income
     {
         [Key]
-        public int Id { get; set; }
+        public int IncomeID { get; set; }
         [Required(AllowEmptyStrings = false), MaxLength(80)]
         public string IncomeName { get; set; }
         public decimal IncomeAmount { get; set; }
