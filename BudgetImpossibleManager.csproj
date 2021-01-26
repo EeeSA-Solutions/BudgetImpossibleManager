@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\BIMContext.cs" />
+    <Compile Include="Data\Managers\SavingGoalManager.cs" />
     <Compile Include="Data\Models\Budget.cs" />
     <Compile Include="Data\Models\Expense.cs" />
     <Compile Include="Data\Models\Income.cs" />
@@ -62,6 +63,10 @@
     <Compile Include="Migrations\202101251450257_Initial.cs" />
     <Compile Include="Migrations\202101251450257_Initial.designer.cs">
       <DependentUpon>202101251450257_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101262027032_SavingGoalManager.cs" />
+    <Compile Include="Migrations\202101262027032_SavingGoalManager.designer.cs">
+      <DependentUpon>202101262027032_SavingGoalManager.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -74,6 +79,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202101251450257_Initial.resx">
       <DependentUpon>202101251450257_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101262027032_SavingGoalManager.resx">
+      <DependentUpon>202101262027032_SavingGoalManager.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
