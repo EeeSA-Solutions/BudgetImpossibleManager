@@ -17,9 +17,11 @@ namespace BudgetImpossibleManager.Data.Models
 
         [Required(AllowEmptyStrings = false), MaxLength(80)]
         public string LastName { get; set; }
+
+        [EmailAddress]
         public string Email { get; set; }
 
-        [Required(AllowEmptyStrings = false)]
+        [Required(AllowEmptyStrings = false), MinLength(8)]
         public string Password { get; set; }
 
         public virtual ICollection<Income> Incomes { get; set; }
