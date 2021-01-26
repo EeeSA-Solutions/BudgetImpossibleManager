@@ -59,9 +59,14 @@
     <Compile Include="Data\Models\Income.cs" />
     <Compile Include="Data\Models\SavingGoal.cs" />
     <Compile Include="Data\Models\User.cs" />
+    <Compile Include="Managers\ExpenseManager.cs" />
     <Compile Include="Migrations\202101251450257_Initial.cs" />
     <Compile Include="Migrations\202101251450257_Initial.designer.cs">
       <DependentUpon>202101251450257_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101261937561_Lagt till ExpenseManager.cs" />
+    <Compile Include="Migrations\202101261937561_Lagt till ExpenseManager.designer.cs">
+      <DependentUpon>202101261937561_Lagt till ExpenseManager.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -75,10 +80,11 @@
     <EmbeddedResource Include="Migrations\202101251450257_Initial.resx">
       <DependentUpon>202101251450257_Initial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101261937561_Lagt till ExpenseManager.resx">
+      <DependentUpon>202101261937561_Lagt till ExpenseManager.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Managers\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
