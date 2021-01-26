@@ -10,6 +10,7 @@ namespace BudgetImpossibleManager
     {
         static void Main(string[] args)
         {
+            //Bästa gruppen ever!
         }
     }
 }
